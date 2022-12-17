@@ -155,3 +155,12 @@ class DataValidation:
             raise SensorException(e, sys)
 
 
+
+
+
+
+
+
+
+
+
