@@ -23,5 +23,5 @@ setup(
     author="Devarakonda Jagannath",
     author_email="devarakondajagannath6378@gmail.com",
     packages = find_packages(),
-    install_requires=get_requirements(),
+    install_requires=get_requirements()
 )

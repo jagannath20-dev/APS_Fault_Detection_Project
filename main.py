@@ -24,6 +24,10 @@ if __name__=="__main__":
                          data_ingestion_artifact=data_ingestion_artifact)
 
           data_validation_artifact = data_validation.initiate_data_validation()
+
+          #data transformation
+
+          
           
      except Exception as e:
           print(e)
