@@ -5,6 +5,7 @@ from sensor.utils import get_collection_as_dataframe
 from sensor.entity import config_entity
 from sensor.components.data_ingestion import DataIngestion
 from sensor.components.data_validation import DataValidation
+from sensor.components.data_transformation import DataTransformation
 
 
 print(__name__)
@@ -27,7 +28,10 @@ if __name__=="__main__":
 
           #data transformation
 
-          
+          data_transformation_config = config_entity.DataTransformationConfig(training_pipeline_config=training_pipeline_config)
+          data_transformation = DataTransformation(data_transformation_config=data_transformation_config, 
+          data_ingestion_artifact=data_ingestion_artifact)
+          data_transformation_artifact = data_transformation.initiate_data_transformation()
           
      except Exception as e:
           print(e)
