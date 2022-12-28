@@ -6,6 +6,7 @@ import os,sys
 from xgboost import XGBClassifier
 from sensor import utils
 from sklearn.metrics import f1_score
+from sklearn.model_selection import GridSearchCV
 
 
 class ModelTrainer:
@@ -25,9 +26,9 @@ class ModelTrainer:
     def fine_tune(self):
         try:
             #Wite code for Grid Search CV
-            pass
-            
-
+            grid_cv = GridSearchCV()
+            grid_cv(x,y)
+            return grid_cv
         except Exception as e:
             raise SensorException(e, sys)
 
