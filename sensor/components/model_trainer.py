@@ -8,7 +8,6 @@ from sensor import utils
 from sklearn.metrics import f1_score
 from sklearn.model_selection import GridSearchCV
 
-
 class ModelTrainer:
 
 
@@ -21,7 +20,7 @@ class ModelTrainer:
             self.data_transformation_artifact=data_transformation_artifact
 
         except Exception as e:
-            raise SensorException(e, sys)
+            raise MiceException(e, sys)
 
     def fine_tune(self):
         try:
