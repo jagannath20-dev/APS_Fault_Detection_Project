@@ -31,4 +31,11 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ![193536736-5ccff349-d1fb-486e-b920-02ad7974d089](https://github.com/jagannath20-dev/APS_Fault_Detection_Project/assets/93565036/af197fef-879b-44db-b911-292a61ca719e)
 
+## Project Archietecture
+![193536768-ae704adc-32d9-4c6c-b234-79c152f756c5](https://github.com/jagannath20-dev/APS_Fault_Detection_Project/assets/93565036/a0283357-bc22-4ee0-bcdb-9abfa00e7ac9)
+
+## Deployment Archietecture
+
+![193536973-4530fe7d-5509-4609-bfd2-cd702fc82423](https://github.com/jagannath20-dev/APS_Fault_Detection_Project/assets/93565036/eb764823-53e5-4665-9cb0-3f5c1cf06360)
+
 
